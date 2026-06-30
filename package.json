@@ -1,0 +1,32 @@
+{
+  "name": "javascript-action",
+  "version": "1.0.0",
+  "description": "javascript based github action",
+  "homepage": "https://github.com/RDNATH93/javascript-action#readme",
+  "bugs": {
+    "url": "https://github.com/RDNATH93/javascript-action/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RDNATH93/javascript-action.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c",
+    "watch": "rollup -c -w"
+
+  },
+  "dependencies": {
+    "@actions/core": "^3.0.1",
+    "@actions/github": "^9.1.1"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^29.0.3",
+    "@rollup/plugin-node-resolve": "^16.0.3",
+    "rollup": "^4.62.2"
+  }
+}

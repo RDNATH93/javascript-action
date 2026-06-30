@@ -10,4 +10,4 @@ inputs:
 
 runs:
   using: "node16"
-  main: "index.js"
+  main: ".github/actions/my-cli-action/dist/index.js"
